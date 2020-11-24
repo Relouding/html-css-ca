@@ -4,3 +4,12 @@ body
    background-size: 100%;
    background-repeat: repeat;
  }
+ 
+ #P1 {
+    color: #ffffff;
+    font-family: Calibri Narrow;
+    font-size: 5%;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+}
