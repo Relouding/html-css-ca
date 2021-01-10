@@ -1,15 +1,210 @@
-body
-  {
-    background-color: #000000;
-     background-size: 100%;
-   background-repeat: repeat;
- }
- 
- #P1 {
-          color: #73989B;
-    font-family: Calibri Narrow;
-      font-size: 250%;
-       position: absolute;
-	    top: 50%;
-	   left: 45%;
+
+/* Body */
+body {
+     background-color: #000000;
+      background-size: 100%;
+    background-repeat: repeat;
+}
+
+/* Header */
+ #H1 {
+             position: absolute;
+               height: 49%;
+                width: 90%;
+
+                  top: 0%;
+                 left: 5%;
+
+  	 background-image: url("../images/cover.jpg");
+  background-position: 0% 25%;
+     background-color: #4A4A4A;
+              opacity: 100%;
+
+	       border-style: solid;
+         border-width: 2px;
+	    	 border-color: #2E2E2E;
+}
+ #H2 {
+             position: absolute;
+
+                  top: 3%;
+                 left: 42.5%;
+
+              opacity: 100%;
+}
+ #H3 {
+             position: absolute;
+
+                  top: 10%;
+                 left: 35%;
+
+              opacity: 30%;
+                color: #555;
+          font-family: Bebas;
+            font-size: 800%;
+}
+ #H4 {
+            position: absolute;
+
+                 top: 21.3%;
+                left: 35.12%;
+
+             opacity: 70%;
+               color: #7D84A2;
+         font-family: Bebas;
+           font-size: 430%;
+}
+
+/* Navigation */
+.NavBox {
+	           position: absolute;
+               height: 5%;
+                width: 10%;
+
+     background-color: #4A4A4A;
+              opacity: 50%;
+
+	       border-style: solid;
+         border-width: 2px;
+		     border-color: #2E2E2E;
+
+              display: flex;
+      justify-content: center;
+          align-items: center;
+}
+.NavText {
+                color: #B5B6CB;
+          font-family: Bebas;
+            font-size: 150%;
+}
+.NavZoom {
+           transition: transform .2s;
+}
+.NavZoom:hover {
+            transform: scale(1.05);
+              opacity: 70%;
+}
+
+ #Home {
+                  top: 42.5%;
+                 left: 6%;
+}
+ #Jackets {
+                  top: 42.5%;
+                 left: 17%;
+}
+ #About {
+                  top: 42.5%;
+                 left: 28%;
+}
+ #Contact {
+                  top: 42.5%;
+                 left: 39%;
+}
+
+/* Login/Register */
+.LogBox {
+	           position: absolute;
+               height: 2%;
+                width: 5%;
+
+     background-color: #4A4A4A;
+              opacity: 50%;
+
+	       border-style: solid;
+         border-width: 1px;
+		     border-color: #2E2E2E;
+
+              display: flex;
+      justify-content: center;
+          align-items: center;
+}
+ .LogText {
+                color: #B5B6CB;
+          font-family: Bebas;
+            font-size: 100%;
+}
+ .LogOp {
+           transition: transform .3s;
+}
+ .LogOp:hover {
+              opacity: 70%;
+}
+
+ #Login {
+                 top: 45.5%;
+                left: 83%;
+}
+ #Register {
+                top: 45.5%;
+               left: 89%;
+}
+
+/* Main content column */
+ #M1 {
+             position: absolute;
+               height: 80%;
+                width: 90%;
+
+                  top: 50%;
+                 left: 5%;
+
+     background-color: #4A4A4A;
+              opacity: 100%;
+
+	       border-style: solid;
+         border-width: 2px;
+		     border-color: #2E2E2E;
+}
+
+/* Main content column text */
+ #MT1 {
+             position: absolute;
+
+	                top: 50%;
+	               left: 45%;
+
+                color: #B5B6CB;
+          font-family: Calibri Narrow;
+            font-size: 20%;
+}
+
+/* Footer */
+ #F1 {
+             position: absolute;
+               height: 15%;
+                width: 90%;
+
+                  top: 131%;
+                 left: 5%;
+
+     background-color: #4A4A4A;
+              opacity: 100%;
+
+	       border-style: solid;
+         border-width: 2px;
+		     border-color: #2E2E2E;
+}
+
+/* Tester */
+ #T1 {
+             position: absolute;
+               height: 10%;
+                width: 10%;
+
+                  top: 35%;
+                 left: 45%;
+
+     background-color: #fff;
+              opacity: 100%;
+
+	       border-style: solid;
+         border-width: 2px;
+	    	 border-color: #2E2E2E;
+}
+
+/* Fonts */
+@font-face {
+	font-family: Bebas;
+	src: url("../fonts/BebasNeue-Regular.ttf")
 }
