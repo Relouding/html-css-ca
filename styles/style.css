@@ -27,32 +27,10 @@ body {
  #H2 {
              position: absolute;
 
-                  top: 3%;
-                 left: 42.5%;
+                  top: 2%;
+                 left: 30%;
 
               opacity: 100%;
-}
- #H3 {
-             position: absolute;
-
-                  top: 10%;
-                 left: 35%;
-
-              opacity: 30%;
-                color: #555;
-          font-family: Bebas;
-            font-size: 800%;
-}
- #H4 {
-            position: absolute;
-
-                 top: 21.3%;
-                left: 35.12%;
-
-             opacity: 70%;
-               color: #7D84A2;
-         font-family: Bebas;
-           font-size: 430%;
 }
 
 /* Navigation */
