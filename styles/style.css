@@ -49,7 +49,7 @@ body {
 .NavText {
                 color: #B5B6CB;
           font-family: Bebas;
-            font-size: 150%;
+            font-size: 1.5vw;
 }
 .NavZoom {
            transition: transform .2s;
@@ -96,7 +96,7 @@ body {
  .LogText {
                 color: #B5B6CB;
           font-family: Bebas;
-            font-size: 100%;
+            font-size: 1vw;
 }
  .LogOp {
            transition: transform .3s;
