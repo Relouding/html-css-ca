@@ -96,7 +96,7 @@ body {
  .LogText {
                 color: #B5B6CB;
           font-family: Bebas;
-            font-size: 1vw;
+            font-size: 0.8vw;
 }
  .LogOp {
            transition: transform .3s;
