@@ -146,36 +146,33 @@ body {
 /* Jacket images */
  #J1 {
              position: absolute;
-               height: 48%;
-                width: 20%;
+               height: 25vw;
+                width: 20vw;
 
 	                top: 55%;
 	               left: 10%;
-
-  	 background-image: url("../images/jacket2.png");
-    background-repeat: no-repeat;
 }
 #J2 {
              position: absolute;
-               height: 48%;
-                width: 20%;
+               height: 25vw;
+                width: 20vw;
 
                   top: 55%;
                  left: 40%;
-
-     background-image: url("../images/jacket2.png");
-    background-repeat: no-repeat;
 }
 #J3 {
              position: absolute;
-               height: 48%;
-                width: 20%;
+               height: 25vw;
+                width: 20vw;
 
                   top: 55%;
                  left: 70%;
+}
 
-     background-image: url("../images/jacket2.png");
-    background-repeat: no-repeat;
+.Jackets {
+              display: flex;
+      justify-content: center;
+          align-items: center;
 }
 
 /* Footer */
