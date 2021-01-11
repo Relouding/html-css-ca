@@ -135,12 +135,47 @@ body {
  #MT1 {
              position: absolute;
 
-	                top: 50%;
+	                top: 55%;
 	               left: 45%;
 
                 color: #B5B6CB;
           font-family: Calibri Narrow;
             font-size: 20%;
+}
+
+/* Jacket images */
+ #J1 {
+             position: absolute;
+               height: 48%;
+                width: 20%;
+
+	                top: 55%;
+	               left: 10%;
+
+  	 background-image: url("../images/jacket2.png");
+    background-repeat: no-repeat;
+}
+#J2 {
+             position: absolute;
+               height: 48%;
+                width: 20%;
+
+                  top: 55%;
+                 left: 40%;
+
+     background-image: url("../images/jacket2.png");
+    background-repeat: no-repeat;
+}
+#J3 {
+             position: absolute;
+               height: 48%;
+                width: 20%;
+
+                  top: 55%;
+                 left: 70%;
+
+     background-image: url("../images/jacket2.png");
+    background-repeat: no-repeat;
 }
 
 /* Footer */
