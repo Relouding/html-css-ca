@@ -152,6 +152,8 @@ body {
                   top: 131%;
                  left: 2.5%;
 
+     background-image: url("../images/cover.jpg");
+  background-position: 0% 0%;
      background-color: #4A4A4A;
               opacity: 100%;
 
