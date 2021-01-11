@@ -10,10 +10,10 @@ body {
  #H1 {
              position: absolute;
                height: 49%;
-                width: 90%;
+                width: 95%;
 
                   top: 0%;
-                 left: 5%;
+                 left: 2.5%;
 
   	 background-image: url("../images/cover.jpg");
   background-position: 0% 25%;
@@ -61,11 +61,11 @@ body {
 
  #Home {
                   top: 41%;
-                 left: 7%;
+                 left: 5%;
 }
  #Jackets {
                   top: 41%;
-                 left: 19%;
+                 left: 18%;
 }
  #About {
                   top: 41%;
@@ -73,7 +73,7 @@ body {
 }
  #Contact {
                   top: 41%;
-                 left: 43%;
+                 left: 44%;
 }
 
 /* Login/Register */
@@ -107,21 +107,21 @@ body {
 
  #Login {
                  top: 44.5%;
-                left: 83%;
+                left: 84%;
 }
  #Register {
                 top: 44.5%;
-               left: 89%;
+               left: 90%;
 }
 
 /* Main content column */
  #M1 {
              position: absolute;
                height: 80%;
-                width: 90%;
+                width: 95%;
 
                   top: 50%;
-                 left: 5%;
+                 left: 2.5%;
 
      background-color: #4A4A4A;
               opacity: 100%;
@@ -147,10 +147,10 @@ body {
  #F1 {
              position: absolute;
                height: 10%;
-                width: 90%;
+                width: 95%;
 
                   top: 131%;
-                 left: 5%;
+                 left: 2.5%;
 
      background-color: #4A4A4A;
               opacity: 100%;
