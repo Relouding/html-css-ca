@@ -1,5 +1,5 @@
 /* Media queries */
-@media(max-device-width: 700px) {
+@media(max-device-width: 700px) (max-width: 700px) {
 
 /* Body */
 body {
