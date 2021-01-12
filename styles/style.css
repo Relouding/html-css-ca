@@ -7,7 +7,7 @@ body {
 }
 
 /* Header */
- #H1 {
+ #Header {
              position: absolute;
                height: 49%;
                 width: 95%;
@@ -132,15 +132,74 @@ body {
 }
 
 /* Main content column text */
- #MT1 {
+H1 {
              position: absolute;
-
-	                top: 55%;
-	               left: 45%;
-
+              display: block;
                 color: #B5B6CB;
-          font-family: Calibri Narrow;
-            font-size: 20%;
+          font-family: Bebas;
+            font-size: 2vw;
+}
+.H1 {
+             position: absolute;
+               height: 4%;
+                width: 50%;
+
+                  top: 50%;
+                 left: 25%;
+
+     background-color: #4A4A4A;
+              opacity: 100%;
+
+              display: flex;
+      justify-content: center;
+          align-items: center;
+}
+H2 {
+             position: absolute;
+              display: block;
+                color: #7D84A2;
+          font-family: Arial;
+          font-weight: bold;
+            font-size: 1vw;
+}
+.H2 {
+             position: absolute;
+               height: 4%;
+                width: 50%;
+
+                  top: 55.5%;
+                 left: 25%;
+
+     background-color: #4A4A4A;
+              opacity: 100%;
+
+              display: flex;
+      justify-content: center;
+          align-items: center;
+}
+P {
+             position: absolute;
+           text-align: justify;
+              display: block;
+                color: #B5B6CB;
+          font-family: Arial;
+            font-size: 0.9vw;
+}
+.P1 {
+             position: absolute;
+             overflow: auto;
+               height: 63.5%;
+                width: 30%;
+
+                  top: 62%;
+                 left: 35%;
+
+     background-color: #4A4A4A;
+              opacity: 100%;
+
+              display: flex;
+      justify-content: center;
+          align-items: top;
 }
 
 /* Jacket images */
@@ -240,4 +299,19 @@ a:hover {
 a:active {
       text-decoration: none;
                 color: #B5B6CB;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 0.5vw;
+}
+::-webkit-scrollbar-track {
+  background: #3C4360;
+}
+::-webkit-scrollbar-thumb {
+  background: #B5B6CB;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7D84A2;
 }
