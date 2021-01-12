@@ -1,3 +1,6 @@
+/* Media queries */
+@import "mobilestyle.css";
+@media(min-width: 700px) {
 
 /* Body */
 body {
@@ -315,3 +318,6 @@ a:active {
 ::-webkit-scrollbar-thumb:hover {
   background: #7D84A2;
 }
+
+}
+

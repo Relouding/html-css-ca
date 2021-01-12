@@ -1,0 +1,322 @@
+/* Media queries */
+@media(max-width: 700px) {
+
+/* Body */
+body {
+    background-color: #000000;
+     background-size: 100%;
+   background-repeat: repeat;
+}
+
+/* Header */
+#Header {
+            position: absolute;
+              height: 30%;
+               width: 100%;
+
+                 top: 0%;
+                left: 0%;
+
+      background-image: url("../images/cover.jpg");
+ background-position: 0% 10%;
+    background-color: #4A4A4A;
+             opacity: 100%;
+
+          border-style: solid;
+        border-width: 2px;
+            border-color: #2E2E2E;
+
+             display: flex;
+     justify-content: center;
+         align-items: center;
+}
+
+/* Navigation */
+.NavBox {
+              position: absolute;
+              height: 3%;
+               width: 10%;
+
+    background-color: #4A4A4A;
+             opacity: 50%;
+
+          border-style: solid;
+        border-width: 2px;
+            border-color: #2E2E2E;
+
+             display: flex;
+     justify-content: center;
+         align-items: center;
+}
+.NavText {
+               color: #B5B6CB;
+         font-family: Bebas;
+           font-size: 2vw;
+}
+.NavZoom {
+          transition: transform .2s;
+}
+.NavZoom:hover {
+           transform: scale(1.05);
+             opacity: 70%;
+}
+
+#Home {
+                 top: 25%;
+                left: 5%;
+}
+#Jackets {
+                 top: 25%;
+                left: 20%;
+}
+#About {
+                 top: 25%;
+                left: 35%;
+}
+#Contact {
+                 top: 25%;
+                left: 50%;
+}
+
+/* Login/Register */
+.LogBox {
+              position: absolute;
+              height: 2%;
+               width: 5%;
+
+    background-color: #4A4A4A;
+             opacity: 50%;
+
+          border-style: solid;
+        border-width: 1px;
+            border-color: #2E2E2E;
+
+             display: flex;
+     justify-content: center;
+         align-items: center;
+}
+.LogText {
+               color: #B5B6CB;
+         font-family: Bebas;
+           font-size: 1vw;
+}
+.LogOp {
+          transition: transform .3s;
+}
+.LogOp:hover {
+             opacity: 70%;
+}
+
+#Login {
+                top: 26%;
+               left: 84%;
+}
+#Register {
+               top: 26%;
+              left: 91%;
+}
+
+/* Main content column */
+#M1 {
+            position: absolute;
+              height: 80%;
+               width: 100%;
+
+                 top: 31%;
+                left: 0%;
+
+    background-color: #4A4A4A;
+             opacity: 100%;
+
+        border-style: solid;
+        border-width: 2px;
+        border-color: #2E2E2E;
+}
+
+/* Main content column text */
+H1 {
+            position: absolute;
+             display: block;
+               color: #B5B6CB;
+         font-family: Bebas;
+           font-size: 6vw;
+}
+.H1 {
+            position: absolute;
+              height: 5%;
+               width: 90%;
+
+                 top: 30%;
+                left: 5%;
+
+    background-color: #4A4A4A;
+             opacity: 100%;
+
+             display: flex;
+     justify-content: center;
+         align-items: center;
+}
+H2 {
+            position: absolute;
+             display: block;
+               color: #7D84A2;
+         font-family: Arial;
+         font-weight: bold;
+           font-size: 3vw;
+}
+.H2 {
+            position: absolute;
+              height: 4%;
+               width: 90%;
+
+                 top: 37%;
+                left: 5%;
+
+    background-color: #4A4A4A;
+             opacity: 100%;
+
+             display: flex;
+     justify-content: center;
+         align-items: center;
+}
+P {
+            position: absolute;
+          text-align: justify;
+             display: block;
+               color: #B5B6CB;
+         font-family: Arial;
+           font-size: 2vw;
+         
+}
+.P1 {
+            position: absolute;
+            overflow: auto;
+              height: 63.5%;
+               width: 90%;
+
+                 top: 43%;
+                left: 5%;
+
+    background-color: #4A4A4A;
+             opacity: 100%;
+
+             display: flex;
+     justify-content: center;
+         align-items: top;
+}
+
+/* Jacket images */
+#J1 {
+            position: absolute;
+              height: 25vw;
+               width: 20vw;
+
+                   top: 55%;
+                  left: 10%;
+}
+#J2 {
+            position: absolute;
+              height: 25vw;
+               width: 20vw;
+
+                 top: 55%;
+                left: 40%;
+}
+#J3 {
+            position: absolute;
+              height: 25vw;
+               width: 20vw;
+
+                 top: 55%;
+                left: 70%;
+}
+
+.Jackets {
+             display: flex;
+     justify-content: center;
+         align-items: center;
+}
+
+/* Footer */
+#F1 {
+            position: absolute;
+              height: 10%;
+               width: 100%;
+
+                 top: 112%;
+                left: 0%;
+
+    background-image: url("../images/cover.jpg");
+ background-position: 0% 0%;
+    background-color: #4A4A4A;
+             opacity: 100%;
+
+          border-style: solid;
+        border-width: 2px;
+            border-color: #2E2E2E;
+
+             display: flex;
+     justify-content: center;
+         align-items: center;
+
+               color: #B5B6CB;
+         font-family: Calibri Narrow;
+           font-size: 2vw;
+}
+
+/* Tester */
+#T1 {
+            position: absolute;
+              height: 10%;
+               width: 10%;
+
+                 top: 35%;
+                left: 45%;
+
+    background-color: #fff;
+             opacity: 100%;
+
+          border-style: solid;
+        border-width: 2px;
+            border-color: #2E2E2E;
+}
+
+/* Fonts */
+@font-face {
+   font-family: Bebas;
+   src: url("../fonts/BebasNeue-Regular.ttf")
+}
+
+a:link {
+     text-decoration: none;
+               color: #B5B6CB;
+}
+a:visited {
+     text-decoration: none;
+               color: #B5B6CB;
+}
+a:hover {
+     text-decoration: none;
+               color: #B5B6CB;
+}
+a:active {
+     text-decoration: none;
+               color: #B5B6CB;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+ width: 0.5vw;
+}
+::-webkit-scrollbar-track {
+ background: #3C4360;
+}
+::-webkit-scrollbar-thumb {
+ background: #B5B6CB;
+}
+::-webkit-scrollbar-thumb:hover {
+ background: #7D84A2;
+}
+
+}
