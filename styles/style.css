@@ -1,6 +1,6 @@
 /* Media queries */
 @import "mobilestyle.css";
-@media(min-width: 700px) {
+@media(min-device-width: 700px) {
 
 /* Body */
 body {
