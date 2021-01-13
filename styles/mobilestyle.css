@@ -98,7 +98,7 @@ body {
 .LogText {
                color: #B5B6CB;
          font-family: Bebas;
-           font-size: 1vw;
+           font-size: 1.5vw;
 }
 .LogOp {
           transition: transform .3s;
@@ -237,27 +237,27 @@ P {
 /* Jacket images */
 #J1 {
             position: absolute;
-              height: 25vw;
-               width: 20vw;
+              height: 60vw;
+               width: 60vw;
 
-                 top: 55%;
-                left: 10%;
+                 top: 45%;
+                left: 20%;
 }
 #J2 {
             position: absolute;
-              height: 25vw;
-               width: 20vw;
+              height: 30vw;
+               width: 30vw;
 
-                 top: 55%;
-                left: 40%;
+                 top: 35%;
+                left: 5%;
 }
 #J3 {
             position: absolute;
-              height: 25vw;
-               width: 20vw;
+              height: 30vw;
+               width: 30vw;
 
-                 top: 55%;
-                left: 70%;
+                 top: 35%;
+                left: 65%;
 }
 
 .Jackets {
@@ -275,21 +275,21 @@ P {
 
 /* Jacket buttons */
 #JB1 {
-                 top: 110%;
+                 top: 90%;
                 left: 10%;
 }
 #JB2 {
-                 top: 110%;
+                 top: 95%;
                 left: 40%;
 }
 #JB3 {
-                 top: 110%;
+                 top: 90%;
                 left: 70%;
 }
 .Jacketbuttons {
             position: absolute;
-              height: 1.5vw;
-               width: 7vw;
+              height: 5vw;
+               width: 15vw;
 
     background-color: #B5B6CB;
         border-style: solid;
@@ -303,11 +303,45 @@ P {
                color: #4A4A4A;
          font-family: Arial;
          font-weight: bold;
-           font-size: .7vw;
+           font-size: 2vw;
 }
 .Jacketbuttons:hover {
           transition: transform .2s;
            transform: scale(1.02);
+}
+
+/* Jacket price information */
+#PB1 {
+                top: 60%;
+               left: 60%;
+}
+#PB2 {
+                top: 60%;
+               left: 79%;
+}
+
+.Jacketpaybuttons {
+           position: absolute;
+             height: 5vw;
+              width: 15vw;
+
+   background-color: #B5B6CB;
+       border-style: solid;
+       border-width: 2px;
+       border-color: #7D84A2;
+
+            display: flex;
+    justify-content: center;
+        align-items: center;
+
+              color: #4A4A4A;
+        font-family: Arial;
+        font-weight: bold;
+          font-size: 2vw;
+}
+.Jacketpaybuttons:hover {
+         transition: transform .2s;
+          transform: scale(1.02);
 }
 
 /* Footer */

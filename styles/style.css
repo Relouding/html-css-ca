@@ -240,7 +240,7 @@ P {
                height: 25vw;
                 width: 20vw;
 
-	                top: 55%;
+	                top: 60%;
                  left: 10%;
 }
 #J2 {
@@ -248,7 +248,7 @@ P {
                height: 25vw;
                 width: 20vw;
 
-                  top: 55%;
+                  top: 60%;
                  left: 40%;
 }
 #J3 {
@@ -256,7 +256,7 @@ P {
                height: 25vw;
                 width: 20vw;
 
-                  top: 55%;
+                  top: 60%;
                  left: 70%;
 }
 
@@ -308,6 +308,40 @@ P {
 .Jacketbuttons:hover {
            transition: transform .2s;
             transform: scale(1.02);
+}
+
+/* Jacket price information */
+#PB1 {
+  top: 90%;
+ left: 50%;
+}
+#PB2 {
+  top: 90%;
+ left: 57.7%;
+}
+
+.Jacketpaybuttons {
+position: absolute;
+height: 1.5vw;
+width: 7vw;
+
+background-color: #B5B6CB;
+border-style: solid;
+border-width: 2px;
+border-color: #7D84A2;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+color: #4A4A4A;
+font-family: Arial;
+font-weight: bold;
+font-size: .7vw;
+}
+.Jacketpaybuttons:hover {
+transition: transform .2s;
+transform: scale(1.02);
 }
 
 /* Footer */
