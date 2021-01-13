@@ -22,9 +22,9 @@ body {
     background-color: #4A4A4A;
              opacity: 100%;
 
-          border-style: solid;
+        border-style: solid;
         border-width: 2px;
-            border-color: #2E2E2E;
+        border-color: #2E2E2E;
 
              display: flex;
      justify-content: center;
@@ -33,16 +33,16 @@ body {
 
 /* Navigation */
 .NavBox {
-              position: absolute;
+            position: absolute;
               height: 3%;
                width: 10%;
 
     background-color: #4A4A4A;
              opacity: 50%;
 
-          border-style: solid;
+        border-style: solid;
         border-width: 2px;
-            border-color: #2E2E2E;
+        border-color: #2E2E2E;
 
              display: flex;
      justify-content: center;
@@ -80,16 +80,16 @@ body {
 
 /* Login/Register */
 .LogBox {
-              position: absolute;
+            position: absolute;
               height: 2%;
                width: 5%;
 
     background-color: #4A4A4A;
              opacity: 50%;
 
-          border-style: solid;
+        border-style: solid;
         border-width: 1px;
-            border-color: #2E2E2E;
+        border-color: #2E2E2E;
 
              display: flex;
      justify-content: center;
@@ -108,12 +108,12 @@ body {
 }
 
 #Login {
-                top: 26%;
-               left: 84%;
+                 top: 26%;
+                left: 84%;
 }
 #Register {
-               top: 26%;
-              left: 91%;
+                 top: 26%;
+                left: 91%;
 }
 
 /* Main content column */
@@ -207,13 +207,13 @@ P {
 
 /* Contact button */
 #CB1 {
-                 top: 120%;
+                 top: 65%;
                 left: 45%;
 }
 .Contactbutton {
             position: absolute;
-              height: 2vw;
-               width: 10vw;
+              height: 5vw;
+               width: 15vw;
 
     background-color: #B5B6CB;
         border-style: solid;
@@ -227,7 +227,7 @@ P {
                color: #4A4A4A;
          font-family: Arial;
          font-weight: bold;
-           font-size: 1vw;
+           font-size: 2vw;
 }
 .Contactbutton:hover {
           transition: transform .2s;
@@ -312,36 +312,36 @@ P {
 
 /* Jacket price information */
 #PB1 {
-                top: 65%;
-               left: 60%;
+                 top: 65%;
+                left: 60%;
 }
 #PB2 {
-                top: 65%;
-               left: 79%;
+                 top: 65%;
+                left: 79%;
 }
 
 .Jacketpaybuttons {
-           position: absolute;
-             height: 5vw;
-              width: 15vw;
+            position: absolute;
+              height: 5vw;
+               width: 15vw;
 
-   background-color: #B5B6CB;
-       border-style: solid;
-       border-width: 2px;
-       border-color: #7D84A2;
+    background-color: #B5B6CB;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #7D84A2;
 
-            display: flex;
-    justify-content: center;
-        align-items: center;
+             display: flex;
+     justify-content: center;
+         align-items: center;
 
-              color: #4A4A4A;
-        font-family: Arial;
-        font-weight: bold;
-          font-size: 2vw;
+               color: #4A4A4A;
+         font-family: Arial;
+         font-weight: bold;
+           font-size: 2vw;
 }
 .Jacketpaybuttons:hover {
-         transition: transform .2s;
-          transform: scale(1.02);
+          transition: transform .2s;
+           transform: scale(1.02);
 }
 
 /* Footer */
@@ -358,9 +358,9 @@ P {
     background-color: #4A4A4A;
              opacity: 100%;
 
-          border-style: solid;
+        border-style: solid;
         border-width: 2px;
-            border-color: #2E2E2E;
+        border-color: #2E2E2E;
 
              display: flex;
      justify-content: center;
@@ -383,9 +383,9 @@ P {
     background-color: #fff;
              opacity: 100%;
 
-          border-style: solid;
+        border-style: solid;
         border-width: 2px;
-            border-color: #2E2E2E;
+        border-color: #2E2E2E;
 }
 
 /* Fonts */
