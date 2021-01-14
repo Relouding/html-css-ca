@@ -4,32 +4,35 @@
   <meta name="Checkout" content="Checkout page">
   <link rel="stylesheet" type="text/css" href="./styles/style.css">
   <link rel="shortcut icon" type="image/png" href="./images/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Checkout</title>
 </head>
 <body>
+
+<header>
+  <img src="images/headerimage.png" width="35%" height="auto">
+</header>
 
 <section>
   <content>
     <h1>CHECKOUT</h1>
     <h2>fill in all necessary fields</h2>
-    <p class="p2">Item: Helly Hansen Rain Coat</p>
-    <p class="p2">Sub total: 75.95$</p>
-    <p class="p2">Shipping: Free</p>
-    <p class="p2">Total: 75.95$</p>
+    <div class="border-r">
     <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="firstname" placeholder="Your name ..">
-        <label for="sname">Surname:</label>
-        <input type="text" id="sname" name="surname" placeholder="Your surname ..">
-        <label for="ename">Email:</label>
+        <label for="fname"><i class="fa fa-user"></i> Full name:</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your full name ..">
+        <label for="ename"><i class="fa fa-envelope"></i> Email:</label>
         <input type="text" id="ename" name="email" placeholder="Your email ..">
-        <label for="add">Address:</label>
+        <label for="add"><i class="fa fa-address-card-o"></i> Address:</label>
         <input type="text" id="add" name="address" placeholder="Your address ..">
     </form>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta quos, voluptatem error beatae delectus esse,
-      architecto animi reprehenderit veniam tempore, quas voluptates quisquam eius? Beatae voluptates ex cumque voluptatum
-      tenetur nesciunt dolores, blanditiis odit magni nemo saepe vitae perferendis voluptate eveniet labore asperiores
-      eligendi maiores pariatur placeat totam expedita vel!</p>
+    </div>
+    <div class="cart">
+      <a href="jacketinfo.html"><p>Helly Hansen Rain Coat </a><span class="price" style="color: #000"><b>x1</b></span></p>
+        <hr>
+        <p>Free shipping <span class="price" style="color: #000"><b>0.00$</b></span></p>
+        <p>Total <span class="price" style="color: #000"><b>75.95$</b></span></p>
+    </div>
     <a href="purchased.html"><button class="button-b">Checkout</button></a>
   </content>
 </section>

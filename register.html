@@ -4,11 +4,10 @@
   <meta name="Register" content="Register page">
   <link rel="stylesheet" type="text/css" href="./styles/style.css">
   <link rel="shortcut icon" type="image/png" href="./images/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Register</title>
 </head>
 <body>
-
-  
 
 <header>
   <img src="images/headerimage.png" width="35%" height="auto">
@@ -32,15 +31,15 @@
     <h2>fill in all necessary fields</h2>
     
     <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="firstname" placeholder="Your name ..">
-        <label for="sname">Surname:</label>
-        <input type="text" id="sname" name="surname" placeholder="Your surname ..">
-        <label for="uname">Username:</label>
+        <label for="fname"><i class="fa fa-user"></i> Full name:</label>
+        <input type="text" id="fname" name="fullname" placeholder="Your full name ..">
+        <label for="uname"><i class="fa fa-user-o"></i> Username:</label>
         <input type="text" id="uname" name="username" placeholder="Your username ..">
-        <label for="pass">Password:</label>
+        <label for="ename"><i class="fa fa-envelope"></i> Email:</label>
+        <input type="text" id="ename" name="email" placeholder="Your email ..">
+        <label for="pass"><i class="fa fa-lock"></i> Password:</label>
         <input type="text" id="pass" name="password" placeholder="Your password ..">
-        <label for="copass">Confirm password:</label>
+        <label for="copass"><i class="fa fa-lock"></i> Confirm password:</label>
         <input type="text" id="copass" name="confirmpassword" placeholder="Confirm password ..">
     </form>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id repellendus quod excepturi quidem ratione
